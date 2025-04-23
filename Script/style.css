@@ -1,0 +1,258 @@
+.backgroundcustom{
+    background-image: url('../Images/newyord.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.boxbestplace{
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.bestplace{
+    color: white;
+    font-size: 25px;
+    background-color: green;
+    height: 100px;
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+nav a {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.gioithieu-section {
+    padding: 4rem 2.5rem;
+    background-color: white;
+    text-align: left;
+  }
+  
+  .gioithieu-container {
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .gioithieu-title {
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: #D97706;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .gioithieu-text {
+    font-size: 1.125rem;
+    color: #374151;
+    line-height: 1.75;
+  }
+  
+  .highlight-brand {
+    color: #D97706;
+    font-weight: 600;
+  }
+  
+  .gioithieu-quote {
+    font-style: italic;
+    color: #6B7280;
+  }
+  
+  .gioithieu-footer {
+    margin-top: 2.5rem;
+    font-size: 0.875rem;
+    color: #6B7280;
+  }
+
+.allplace{
+    background-color: #fff3b9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Spain, .Canada, .newyord, .Japan{
+    background-color: #fceabb;      /* vàng kem nhẹ */
+    border: 3px solid #e2c044;  /* Viền vàng nổi bật hài hòa với allplace */
+    border-radius: 15px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.newyord:hover, .Canada:hover, .Spain:hover, .Japan:hover{
+    transform: scale(1.05) translateY(-10px) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Newyork_text{
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newyork_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.canada_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+}
+
+.spain_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+}
+
+.japan_img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    position: relative;
+}
+
+.Japan_text{
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Canada_text{
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spain_text {
+    padding: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #333;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-description{
+    font-size: 1.125rem;
+    max-width: 36rem;
+    margin: 0 auto;
+}
+
+.cta-button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #facc15;
+    border-radius: 9999px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #fbbf24;
+}
+
+.Foorter{
+    background-color: gray;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+.highlight-section {
+    padding: 40px 60px;
+    background-color: #fff3b9;
+    text-align: center;
+}
+.highlight-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #222;
+    font-family: 'Georgia', serif;
+}
+html {
+    scroll-behavior: smooth;
+}
