@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Images/favico.png">
+    <link rel="stylesheet" href="Script/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <header>
+        <nav class="w-full absolute top-0 left-0 z-10 flex justify-between items-center px-10 py-4 bg-black bg-opacity-50 text-white">
+            <div class="text-2xl font-bold tracking-wider">Travel</div>
+            <ul class="flex gap-8 text-lg">
+                <li><a href="index.html" class="hover:text-yellow-400 transition">Trang chủ</a></li>
+                <li><a href="#gioithieu" class="hover:text-yellow-400 transition">Giới thiệu</a></li>
+            </ul>
+        </nav>
+        <div class="backgroundcustom">
+            <div class="hero-container">
+                <h1 class="hero-title" data-aos="fade-up">Khám Phá Thế Giới</h1>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="200">Một hành trình không ngừng nghỉ qua những vùng đất mới, trải nghiệm văn hóa đa dạng, và tạo nên những kỷ niệm khó quên.</p>
+                <a href="#noibat" class="cta-button" data-aos="fade-up" data-aos-delay="400">Khám phá ngay</a>
+            </div>                      
+        </div>
+    </header>
+    <main>
+        <section class="highlight-section" id="noibat">
+            <h2 class="highlight-title" data-aos="fade-up">Những địa điểm nổi bật</h2>
+        </section>
+            <div class="allplace">
+                <div class="newyord" data-aos="zoom-in" data-aos-delay="100">
+                    <a href="newyord.html">
+                        <img src="Images/new-york-central-park.jpg" class="newyork_img" alt="newyork image">
+                        <p class="Newyork_text">Mỹ</p>
+                    </a>
+                </div>
+                <div class="Canada" data-aos="fade-left" data-aos-delay="200">
+                    <a href="canada.html">
+                        <img src="Images/Canada_city.jpg" alt="canada image" class="canada_img">
+                        <p class="Canada_text">Canada</p>
+                    </a>
+                </div>
+                <div class="Spain" data-aos="flip-left" data-aos-delay="300">
+                    <a href="spain.html">
+                        <img src="Images/Spain.jpg" alt="spain image" class="spain_img">
+                        <p class="Spain_text">Spain</p>
+                    </a>
+                </div>
+                <div class="Japan" data-aos="flip-left" data-aos-delay="300">
+                    <a href="japan.html">
+                        <img src="Images/japan_back_ground.jpg" alt="japan image" class="japan_img">
+                        <p class="Japan_text">Nhật Bản</p>
+                    </a>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <section id="gioithieu" class="gioithieu-section">
+            <div class="gioithieu-container">
+              <h2 class="gioithieu-title">
+                Giới Thiệu
+              </h2>
+              <p class="gioithieu-text">
+                <strong>Travel</strong> là nơi bắt đầu những cuộc hành trình tuyệt vời. Chúng tôi không chỉ cung cấp thông tin,
+                mà còn là nguồn cảm hứng cho những ai khao khát khám phá thế giới. Với mạng lưới điểm đến đa dạng từ Á đến Âu,
+                từ những vùng đất hoang sơ đến các đô thị sầm uất, Travel giúp bạn kết nối với thiên nhiên, văn hóa và con người
+                ở khắp nơi.
+                <br><br>
+                Chúng tôi tin rằng mỗi chuyến đi là một câu chuyện đáng nhớ, một cơ hội để trưởng thành và nhìn thế giới bằng một lăng kính mới.
+                Hãy để <span class="highlight-brand">Travel</span> đồng hành cùng bạn trên mọi hành trình khám phá!
+                <br><br>
+                <span class="gioithieu-quote">“Đi không chỉ để đến, mà để cảm nhận.”</span>
+              </p>
+              <div class="gioithieu-footer">
+                <span>&copy; 2025 Travel Journey. All rights reserved.</span> |
+                <span>Designed with ❤️</span>
+              </div>
+            </div>
+          </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1000,
+                easing: 'ease-in-out',
+                once: true,
+            })
+        </script>
+    </footer>
+</body>
+</html>
